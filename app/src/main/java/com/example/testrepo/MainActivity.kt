@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             TestRepoTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name1 = "Android",
+                        name1arg = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                     Greeting(
